@@ -61,4 +61,10 @@ public class OrderControllerUnitTest {
         assertEquals(1, response.getBody().getItems().size());
         assertEquals(null, response.getBody().getId());
     }
+
+    @Test
+    public void submitTestForNonExistingUser(){
+        ResponseEntity<UserOrder> response = orderController.submit("randomUser");
+        assertEquals("404 NOT_FOUND", response.getStatusCode().toString());
+    }
 }
