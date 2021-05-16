@@ -29,3 +29,25 @@
 2021-05-16 15:04:47,755 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-5] User created successfully with username arpit
 2021-05-16 15:04:53,023 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-6] User created successfully with username vishy
 2021-05-16 15:05:08,539 ERROR com.example.demo.controllers.UserController [http-nio-8080-exec-7] User creation failed, please set proper password.
+2021-05-16 16:41:26,564 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m42s773ms182µs200ns).
+2021-05-16 18:02:27,628 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m777ms375µs400ns).
+2021-05-16 20:07:11,709 INFO org.springframework.boot.StartupInfoLogger [main] Starting MainApplicationTests on DESKTOP-9FPP7VQ with PID 6856 (started by Arpit in E:\UdacityCodeRepository\Ecommerce-Application\JDND\starter_code)
+2021-05-16 20:07:11,712 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-16 20:07:13,346 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-16 20:07:13,602 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 233ms. Found 4 JPA repository interfaces.
+2021-05-16 20:07:16,192 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-16 20:07:16,341 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.18.Final
+2021-05-16 20:07:16,446 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-16 20:07:16,809 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-16 20:07:17,482 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-16 20:07:17,560 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-16 20:07:19,745 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-16 20:07:19,745 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-16 20:07:21,687 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-16 20:07:23,827 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@497c1d78, org.springframework.security.web.context.SecurityContextPersistenceFilter@17344d7, org.springframework.security.web.header.HeaderWriterFilter@52a2e2fb, org.springframework.web.filter.CorsFilter@7d12fb85, org.springframework.security.web.authentication.logout.LogoutFilter@26c1f3eb, com.example.demo.security.JWTAuthenticationFilter@71db6703, com.example.demo.security.JWTAuthenticationVerficationFilter@470ad01c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23909b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@294a12b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e349258, org.springframework.security.web.session.SessionManagementFilter@1164990a, org.springframework.security.web.access.ExceptionTranslationFilter@663e1144, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c3c63c1]
+2021-05-16 20:07:24,489 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-16 20:07:25,563 INFO org.springframework.boot.StartupInfoLogger [main] Started MainApplicationTests in 15.132 seconds (JVM running for 20.631)
+2021-05-16 20:07:25,756 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-16 20:07:25,768 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-16 20:07:25,773 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-05-16 20:07:25,779 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
