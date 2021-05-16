@@ -35,7 +35,6 @@
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.3.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.2.8.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-security:2.3.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.3.2.RELEASE" level="project" />
@@ -45,7 +44,6 @@
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.13.3" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.13.3" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.26" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.8.RELEASE" level="project" />
@@ -103,6 +101,11 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-log4j12:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:2.23.4" level="project" />
     <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.10.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy-agent:1.10.13" level="project" />
