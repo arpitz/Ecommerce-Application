@@ -45,6 +45,11 @@ public class UserController {
 		Cart cart = new Cart();
 		cartRepository.save(cart);
 		user.setCart(cart);
+		if(userRepository.findByUsername(createUserRequest.getUsername()) != null){
+			//log the creating user failed
+			logger.error("User creation failed, the username already exists.");
+			return ResponseEntity.badRequest().build();
+		}
 		if(createUserRequest.getPassword().length()<7 ||
 				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
 			//log the creating user failed

@@ -35,7 +35,7 @@ public class OrderController {
 		User user = userRepository.findByUsername(username);
 		if(user == null) {
 			// log user not found exception
-			logger.error("Requested user not found and is not an existing user.");
+			logger.error("Order creation failed as the requested user is not found.");
 			return ResponseEntity.notFound().build();
 		}
 		UserOrder order = UserOrder.createFromCart(user.getCart());
